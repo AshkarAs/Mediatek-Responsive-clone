@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-color: blueviolet; */
+    overflow-x: hidden;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 500;
+    font-size: 0.44cm;
+}
+
+.carousel{
+    width: 100%;
+}
+.carousel-item img{
+    /* height: 100vh; */
+    width: 100%;
+    object-fit: fill;
+}
+.carousel-mobile{
+    display: none;
+}
+
+.carousel-caption{
+    top: 20vw;
+    left: 8vw;
+    /* background-color: aqua; */
+    width:48vw;
+    height:16vw; 
+    text-align: left;
+    
+}
+.carousel-caption h5{
+    color: #FFFF;
+    font-size: 2.7vw;
+    font-weight: 500;
+}
+.carousel-caption p{
+    font-size: 1.55vw;
+    color: #FFFF;
+}
+.carousel-caption a{
+    color: #FFFF;
+    background-color: rgb(250, 206, 10);
+    padding: 5px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+   
+}
+
+@media screen and (max-width:726px){
+    .carousel-mobile{
+        display: block;
+    }
+    .carousel-desktop{
+        display: none;
+    }
+
+    .carousel-caption{
+        top: 20vw;
+        left: 18vw;
+        /* background-color: aqua; */
+        width:60vw;
+        height:86vw; 
+        text-align:center;
+        
+    }
+    .carousel-caption h5{
+        color: #FFFF;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .carousel-caption p{
+        font-size: 3vw;
+        color: #FFFF;
+    }
+    .carousel-caption a{
+        color: #FFFF;
+        background-color: rgb(250, 206, 10);
+        padding: 5px 20px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
+
+
+.mediatek1,.mediatek2,.mediatek3,.mediatek4,.mediatek5,.mediatek6,.mediatek7{
+    margin-top: 40px;
+}
+.mediatek img{
+    width: 100%;
+}
+.mediatek h1{
+    color: #57594f;
+    font-size: 30px;
+}
+.mediatek p{
+    font-size: 16px;
+    color: #57594f;
+}
+
+
+.mediatekcontent{
+margin-top: 50px;
+padding-left: 40px;
+}
+.mediatekimg{
+    justify-content: center;
+    padding-left: 40px;
+}
+ 
+.mediatek8{
+    padding: 2rem;
+    background-color: #e5e7eb;
+    height: auto;
+    padding: 2rem 80px;
+    
+}
+.mediatek8 h2{
+    color: orange;
+    font-size: 0.5cm;
+    font-weight:700;
+}
+.mediatek8 a{
+    text-decoration: none;
+    color:#231f20;
+    font-weight: 700;
+}
+.mediatek8 p{
+    color: #57594f;
+}
+.mediatek9{
+    
+    background-color: #57594f;
+    height: auto;
+    padding:5rem 4.8rem ;
+    
+}
+.mediatek91 p{
+    color: white;
+    font-weight: 700;
+    font-size: 0.4cm;
+    display: inline;
+}
+.mediatek91 a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    /* background-color: aqua;  */
+    padding:50px 0px
+}
+.empty{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.footer a{
+    color: white;
+    display: inline;
+    text-decoration: none;
+    font-size: 0.3cm;
+}
+.footer p{
+    color: white;
+    display: inline;
+   font-size: 0.35cm;
+}
+    
+
+hr{
+    color: white;
+    border-width: 1px
+}
+
+
+
+            
